@@ -12,9 +12,23 @@
  *
  *= require_tree .
  *= require_self
+ *= require gritter
  */
 
 html, body {
   margin: 0;
   height: 100%;
+}
+
+.custom_gritter {
+  background-color: green;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.gritter-item-wrapper {
+  position: relative;
+  margin: 0 0 10px 0;
+  background: url(ie-spacer.gif);
 }
